@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-      - uses: dylanvann/publish-github-action@973d5c2eec5df00513bb013e4424eaf04117ebd1 # v1.1.49
+      - uses: tgymnich/publish-github-action@fae5b5bf75434480dfbb2ddff6bf3b115b55fb45 # v1.3.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
