@@ -13,7 +13,7 @@ inputs:
     required: false
     default: "[Backport {{base}}] {{originalTitle}}"
 runs:
-  using: node12
+  using: node20
   main: dist/index.js
 branding:
   icon: arrow-left-circle
